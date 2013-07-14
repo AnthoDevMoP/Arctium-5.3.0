@@ -1,0 +1,3 @@
+<componentinfo format="1">
+    <component name="wow-engb" version="16057" />
+</componentinfo>

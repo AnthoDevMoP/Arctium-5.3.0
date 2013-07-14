@@ -1,0 +1,122 @@
+130614 12:44:57 [Note] Plugin 'FEDERATED' is disabled.
+130614 12:44:57 InnoDB: The InnoDB memory heap is disabled
+130614 12:44:57 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130614 12:44:57 InnoDB: Compressed tables use zlib 1.2.3
+130614 12:44:57 InnoDB: Initializing buffer pool, size = 128.0M
+130614 12:44:57 InnoDB: Completed initialization of buffer pool
+130614 12:44:57 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 23408246
+130614 12:44:57  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 23408595
+130614 12:44:57  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+InnoDB: Last MySQL binlog file position 0 373, file name .\mysql-bin.000026
+130614 12:44:58  InnoDB: Waiting for the background threads to start
+130614 12:44:59 InnoDB: 1.1.8 started; log sequence number 23408595
+130614 12:44:59 [Note] Recovering after a crash using mysql-bin
+130614 12:44:59 [Note] Starting crash recovery...
+130614 12:44:59 [Note] Crash recovery finished.
+130614 12:45:00 [Note] Event Scheduler: Loaded 0 events
+130614 12:45:00 [Note] C:\Users\Anthony\Desktop\Mop 5.3.0 Sandbox Uploaded By Craigy109_ Credits To Fabian\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130614 12:48:01 [Note] Plugin 'FEDERATED' is disabled.
+130614 12:48:01 InnoDB: The InnoDB memory heap is disabled
+130614 12:48:01 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130614 12:48:01 InnoDB: Compressed tables use zlib 1.2.3
+130614 12:48:01 InnoDB: Initializing buffer pool, size = 128.0M
+130614 12:48:01 InnoDB: Completed initialization of buffer pool
+130614 12:48:01 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+130614 12:48:01  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 373, file name .\mysql-bin.000026
+130614 12:48:01  InnoDB: Waiting for the background threads to start
+130614 12:48:02 InnoDB: 1.1.8 started; log sequence number 23408595
+130614 12:48:02 [Note] Recovering after a crash using mysql-bin
+130614 12:48:02 [Note] Starting crash recovery...
+130614 12:48:02 [Note] Crash recovery finished.
+130614 12:48:02 [Note] Event Scheduler: Loaded 0 events
+130614 12:48:02 [Note] C:\Users\Anthony\Desktop\Mop 5.3.0 Sandbox Uploaded By Craigy109_ Credits To Fabian\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130614 13:12:49 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. The statement is unsafe because it uses a LIMIT clause. This is unsafe because the set of rows included cannot be predicted. Statement: DELETE FROM `creature_spawns` WHERE (`guid`=1) LIMIT 1
+130614 13:12:57 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. The statement is unsafe because it uses a LIMIT clause. This is unsafe because the set of rows included cannot be predicted. Statement: DELETE FROM `creature_gossips` WHERE (`Guid`=1) LIMIT 1
+130614 13:13:20 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. The statement is unsafe because it uses a LIMIT clause. This is unsafe because the set of rows included cannot be predicted. Statement: DELETE FROM `creature_data` WHERE (`Id`=57754) LIMIT 1
+130614 13:13:38 [Warning] Unsafe statement written to the binary log using statement format since BINLOG_FORMAT = STATEMENT. The statement is unsafe because it uses a LIMIT clause. This is unsafe because the set of rows included cannot be predicted. Statement: DELETE FROM `broadcast_texts` WHERE (`Id`=56417) LIMIT 1
+130618  1:16:22 [Note] Plugin 'FEDERATED' is disabled.
+130618  1:16:22 InnoDB: The InnoDB memory heap is disabled
+130618  1:16:22 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130618  1:16:22 InnoDB: Compressed tables use zlib 1.2.3
+130618  1:16:22 InnoDB: Initializing buffer pool, size = 128.0M
+130618  1:16:22 InnoDB: Completed initialization of buffer pool
+130618  1:16:22 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+130618  1:16:22  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 25572719, file name .\mysql-bin.000028
+130618  1:16:23  InnoDB: Waiting for the background threads to start
+130618  1:16:24 InnoDB: 1.1.8 started; log sequence number 23434160
+130618  1:16:24 [Note] Recovering after a crash using mysql-bin
+130618  1:16:24 [Note] Starting crash recovery...
+130618  1:16:24 [Note] Crash recovery finished.
+130618  1:16:25 [Note] Event Scheduler: Loaded 0 events
+130618  1:16:25 [Note] C:\Users\Anthony\Desktop\Mop 5.3.0 with DB OK\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130619 21:53:07 [Note] Plugin 'FEDERATED' is disabled.
+130619 21:53:07 InnoDB: The InnoDB memory heap is disabled
+130619 21:53:07 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130619 21:53:07 InnoDB: Compressed tables use zlib 1.2.3
+130619 21:53:07 InnoDB: Initializing buffer pool, size = 128.0M
+130619 21:53:07 InnoDB: Completed initialization of buffer pool
+130619 21:53:07 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+130619 21:53:07  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 7839905, file name .\mysql-bin.000029
+130619 21:53:07  InnoDB: Waiting for the background threads to start
+130619 21:53:08 InnoDB: 1.1.8 started; log sequence number 23466202
+130619 21:53:08 [Note] Recovering after a crash using mysql-bin
+130619 21:53:08 [Note] Starting crash recovery...
+130619 21:53:08 [Note] Crash recovery finished.
+130619 21:53:09 [Note] Event Scheduler: Loaded 0 events
+130619 21:53:09 [Note] C:\Users\Anthony\Desktop\Mop 5.3.0 with DB OK\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130702 18:29:05 [Note] Plugin 'FEDERATED' is disabled.
+130702 18:29:05 InnoDB: The InnoDB memory heap is disabled
+130702 18:29:05 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+130702 18:29:05 InnoDB: Compressed tables use zlib 1.2.3
+130702 18:29:05 InnoDB: Initializing buffer pool, size = 128.0M
+130702 18:29:05 InnoDB: Completed initialization of buffer pool
+130702 18:29:05 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+130702 18:29:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 7839905, file name .\mysql-bin.000029
+130702 18:29:06  InnoDB: Waiting for the background threads to start
+130702 18:29:07 InnoDB: 1.1.8 started; log sequence number 23466202
+130702 18:29:07 [Note] Recovering after a crash using mysql-bin
+130702 18:29:07 [Note] Starting crash recovery...
+130702 18:29:07 [Note] Crash recovery finished.
+130702 18:29:07 [Note] Event Scheduler: Loaded 0 events
+130702 18:29:07 [Note] E:\Mop 5.3.0 with DB OK\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.19-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
